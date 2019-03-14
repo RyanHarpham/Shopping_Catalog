@@ -1,0 +1,324 @@
+body {
+    color:			#000000;
+    font-family:		Arial, Helvetica, sans-serif;
+    background:		linear-gradient(#dea473, #744015);
+    background-repeat:	no-repeat;
+}
+
+header {
+    background-image:	url(pics/banner.png);
+    background-repeat:	no-repeat;
+    margin-left:		auto;
+    margin-right:		auto;
+    height:			150px;
+}
+
+#container {
+    width:			80%;
+    min-width:		700px;
+    max-width:		960px;
+    min-height:             1000px;
+    margin-left:		auto;
+    margin-right:		auto;
+    background-color:	white;
+    color:			black;
+}
+
+#shoppingcart {
+    position: relative;
+}
+#shoppingcart img {
+    position: fixed;
+    display: block;
+    top: 0px;
+    right: 0px;
+    height: 50px;
+    width: 50px;
+}
+
+.errors {
+    text-align: center;
+    margin-left: 180px;
+    font-weight: bold;
+    color: red;
+}
+
+navbar ul {
+    list-style-type: 	none;
+    margin: 		0;
+    padding: 		0;
+    overflow: 		hidden;
+    background-color: 	#ece06a;
+}
+
+navbar li {
+    float: 			left;
+}
+
+navbar li a {
+    display: 		block;
+    color: 			black;
+    text-align: 		center;
+    padding: 		14px 16px;
+    text-decoration: 	none;
+}
+
+navbar li a:hover {
+    background-color: #6699cc;
+}
+
+#navAlias {
+    float: 			right;
+    display: 		block;
+    color: 			white;
+    text-align: 		center;
+    padding: 		14px 16px;
+    text-decoration: 	none;
+}
+
+#emptycart {
+    text-align: center;
+    margin-left: 415px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #f44336;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#finalizecart {
+    margin-left: 415px;
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#entry input, select {
+    float: right;
+    margin-right: 10em;
+}
+
+#entry {
+    padding-top: 25px;
+}
+
+#button {
+    margin-left: 150px;
+}
+
+fieldset {
+    margin-top: 20px;
+    padding: 10px;
+    width:  80%;
+    background-color: yellow;
+    margin-left:    75px;
+}
+
+label {
+    font-weight: bold;
+    color: black;
+    margin-left: 180px;
+}
+
+.ratingerrors {
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    margin-left: 180px;
+}
+
+.center {
+    text-align: center;
+}
+
+.centerButton {
+    margin-left:    395px;
+}
+
+.adminbutton {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 375px;
+    margin-top: 50px;
+}
+.adminbutton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.adminbutton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.adminbutton:hover span {
+    padding-right: 25px;
+}
+.adminbutton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#accountsTable {
+    margin-top: 20px;
+    margin-left:    auto;
+    margin-right:   auto; 
+    border-collapse: collapse;
+}
+
+#accountsTable th {
+    background-color: #acaaaa;
+}
+
+#accountsTable td {
+    padding: 25px;
+}
+
+#accountsTable tr:nth-child(odd) {
+    background-color: 	#cccad3;
+}
+
+#accountsTable tr:hover {
+    background-color: 	#fdfaaf;
+}
+
+.deleteButtons {
+    width:  50px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 395px;
+    margin-bottom: 25px;
+    padding:    10px;
+}
+
+#propic {
+    float:  left;
+}
+
+#slideshowImage {
+    margin-bottom: 1em;	
+    margin: 0;
+    margin-left: 395px;
+    margin-top: 20px;
+    padding: 0;
+}
+.button_panel	{
+    height: 125px;
+    padding: 50px 15px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.button_panel img {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+}
+#display_panel {
+    width: 300px;
+    overflow: hidden;
+    float: left;			
+    height: 125px;
+    margin: 0;
+    padding: 0;
+}
+#image_list {
+    position: relative;	
+    left: 0px;
+    width: 900px;
+    list-style: none;  
+    margin: 0;
+    padding: 0;
+}
+#image_list li	{
+    float: left;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+}
+#image_list li img	{
+    width: 95px;
+    margin: 0;
+    padding: 0;
+
+}
+#slideshow {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin: 0 auto;
+    width: 410px;
+    height: 480px;
+    padding: 20px 0;	
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+#slideshowTitle {
+    text-align: center;
+    font-weight: bold;
+}
+
+#header {
+    color: #dea473;
+    border-bottom: #dea473 solid 1px;
+    margin-left: 10px;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+#mainpageText {
+    margin-left: 10px;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+.pagination {
+  display: inline-block;
+  margin-left: 450px;
+  margin-top: 25px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
